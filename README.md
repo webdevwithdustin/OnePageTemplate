@@ -1,1 +1,1 @@
-# OnePageTemplate
+# One Page Website Template
