@@ -185,7 +185,7 @@ footer p:last-of-type {
     body {
         font-size: 18px;
     }
-    
+
     .container {
         padding: 2em;
     }
@@ -193,7 +193,7 @@ footer p:last-of-type {
     nav.navbar {
         background-color: transparent;
     }
-    
+
     .navbar-toggler {
         background-color: var(--dark-blue-color);
         z-index: 999;
@@ -205,6 +205,7 @@ footer p:last-of-type {
         text-align: center;
         padding: 1em;
     }
+
     .navbar-collapse {
         background-color: var(--dark-teal-color);
         position: absolute;
@@ -212,11 +213,28 @@ footer p:last-of-type {
         right: 0;
         top: 0;
     }
-    
+
     .navbar .container-fluid {
         padding: 0px;
     }
+
+    main section {
+        height: 100%;
+        position: relative;
+        padding: 50px 0px;
+    }
+
+    main section .container {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
     
+    .img-bg {
+        padding: 50px 20px;
+    }
+
     footer {
         font-size: 0.8em;
     }
